@@ -67,3 +67,38 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Exercise */
+
+.modal{
+  display: flex;
+  padding: 15px;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
+}
+
+.header-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.modal-main {
+  padding-left: 15px;
+}
+
+.text {
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
